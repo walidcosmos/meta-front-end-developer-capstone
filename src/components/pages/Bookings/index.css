@@ -1,0 +1,62 @@
+.bookings h2 {
+  padding: 3rem 0;
+  background-color: #495E57;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bookings form {
+  margin: 0 auto 3rem auto;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.form-field label {
+  font-weight: 600;
+  color: #495E57;
+}
+
+.form-field p {
+  font-size: 0.875rem;
+  color: #dc2626;
+  margin-top: 0.25rem;
+}
+
+.bookings button:disabled,
+.bookings button[disabled] {
+  background-color: #EDEFEE;
+  border-color: #EDEFEE;
+  color: #ADAFAE;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.bookings button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.confirmed-booking {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 31.25rem;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.confirmed-booking h2 {
+  background: none;
+  padding: 0;
+  color: #495E57;
+}
